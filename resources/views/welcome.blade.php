@@ -44,7 +44,7 @@
             @endif
         </header>
         <main class="flex items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
-            {{-- Hero Section --}}
+            <!-- Hero Section -->
             <section class="bg-white dark:bg-gray-900 p-4">
                 <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                     <div class="mr-auto place-self-center lg:col-span-7">
