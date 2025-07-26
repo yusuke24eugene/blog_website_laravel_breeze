@@ -28,6 +28,8 @@
                         @error('category')
                             <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                         @enderror
+
+                        
                     </div>
 
                     <button
@@ -36,6 +38,15 @@
                     >
                         Update
                     </button>
+
+                    <div class="mt-2">
+                        <a href="{{ route('category.show') }}" class="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-4 h-4 mr-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 12h14"></path>
+                            </svg>
+                            Back
+                        </a>
+                    </div>
                 </form>
             </div>
 </x-app-layout>
